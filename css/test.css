@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.high {
+    font-wight:bold;
+    color:red;
+}
+.another {
+    font-style:italic;
+    color:blue;
+}
