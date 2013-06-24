@@ -7,8 +7,8 @@ class TestController extends Controller {
     public function init() {
 
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/test.css');
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/css/jquery/jquery-1.10.1.js', CClientScript::POS_END);
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/css/test.js', CClientScript::POS_END);
+        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/jquery/jquery-1.10.1.js', CClientScript::POS_END);
+        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/test.js', CClientScript::POS_END);
 //        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/css/imgPreview/CJL.0.1.min.js');
 //        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/css/imgPreview/QuickUpload.js');
 //        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/css/imgPreview/ImagePreviewd.js');

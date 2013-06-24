@@ -5,7 +5,7 @@ class MessageController extends Controller {
 
     public function init() {
 
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/css/jquery/jquery-1.4.2.min.js', CClientScript::POS_END);
+        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/jquery/jquery-1.4.2.min.js', CClientScript::POS_END);
     }
 
     public function actionIndex() {
