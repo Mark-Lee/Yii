@@ -1,4 +1,4 @@
 yii-demo
 ========
 
-My Yii demo.
+My YII Demo.
